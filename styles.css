@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flowerClock {
+    background-image: url("Flower.jpeg");
+    height: 830px;
+    background-position: center;
+}
+
+.container--clock {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    background-image: none;
+    border-radius: 10px;
+    color: #ffff;
+    padding: 20px;
+}
+
