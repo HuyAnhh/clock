@@ -5,15 +5,15 @@
 }
 
 .flowerClock {
-    background-image: url("Flower.jpeg");
+    background-image: url(Flower8.jpeg);
     height: 830px;
-    background-position: center;
+    background-size: contain;
 }
 
 .container--clock {
     position: absolute;
     top: 15%;
-    left: 25%;
+    left: 10%;
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -26,3 +26,26 @@
     padding: 20px;
 }
 
+.btnChangeBackground {
+    position: absolute;
+    top: 20%;
+    right: 20%;
+    padding: 10px;
+    border-radius: 10px;   
+}
+
+.btnSpecial {
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    padding: 10px 50px;
+    border-radius: 10px;
+    font-size:larger;
+}
+
+.hidden {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    display: none;
+}
